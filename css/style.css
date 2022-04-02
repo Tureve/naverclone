@@ -1,43 +1,49 @@
+
+/* 페이지 전체 배경색 */
 body {
     background-color: #F5F6F7;
 
 }
 
 
-#logo {
+/* 로고 */
+.logo {
     display: flex;
     justify-content: center;
 }
 
+/* 이미지 */
 img {
     width: 250px;
     height: 50px;
-
 }
 
-#logo a {
+.logo a {
     margin-top: 70px;
     margin-bottom: 50px;
 }
 
-#login {
+
+
+/* 로그인 텍스트박스 div */
+.text_box {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
-.textbox {
+/* 로그인 텍스트박스 */
+.text_box input {
     width: 500px;
-    height: 40px;
+    height: 50px;
     border: 1.5px solid #D0D2D3;
-    padding-left: 9px;
+    padding-left: 15px;
 }
 
 
-#loginPW {
-    margin-top: 10px;
-}
 
-#loginBtn {
+/* 로그인 버튼 */
+#login_btn {
     margin-top: 10px;
     width: 509px;
     height: 50px;

@@ -6,24 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>네이버 로그인 화면</title>
     <link rel="stylesheet" href="https://tureve.github.io/naverclone/css/style.css">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
 </head>
 <body>
-    <div id="logo">
+    <div class="logo">
         <a href="https://www.naver.com/">
             <img src="https://tureve.github.io/naverclone/img/logo.png" alt="네이버 로고">
         </a>
     </div>
 
-    <div id="login">
-        <div>
+    <div class="login">
 
-            <input id="loginID" class="textbox" type="text" placeholder="아이디">
-            <br>
-            <input id="loginPW" class="textbox" type="text" placeholder="비밀번호">
-            <br>
-            <input id="loginBtn" type="submit" value="로그인">
-
+        <div class="text_box">
+            <input id="login_id" type="text" placeholder="아이디">
         </div>
+
+        <div class="text_box">
+            <input id="login_pw" type="text" placeholder="비밀번호">
+        </div>
+
+        <div class="text_box">
+            <form action="https://www.naver.com/">
+                <input id="login_btn" type="submit" value="로그인">
+            </form>
+        </div>
+        
     </div>
     
 </body>
